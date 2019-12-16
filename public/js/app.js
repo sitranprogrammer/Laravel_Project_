@@ -86,6 +86,23 @@
 /************************************************************************/
 /******/ ({
 
+/***/ "./resources/js/app.js":
+/*!*****************************!*\
+  !*** ./resources/js/app.js ***!
+  \*****************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+// require('./bootstrap');
+// include('/vendor/components/jquery/jquery.slim.min');
+$(document).ready(function () {
+  $('#sideptrai').on('click', function () {
+    console.log('hihi');
+  });
+});
+
+/***/ }),
+
 /***/ "./resources/sass/index.sass":
 /*!***********************************!*\
   !*** ./resources/sass/index.sass ***!
@@ -98,13 +115,13 @@
 /***/ }),
 
 /***/ 0:
-/*!**********************************************************************!*\
-  !*** multi ./resources/assets/js/app.js ./resources/sass/index.sass ***!
-  \**********************************************************************/
+/*!***************************************************************!*\
+  !*** multi ./resources/js/app.js ./resources/sass/index.sass ***!
+  \***************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-!(function webpackMissingModule() { var e = new Error("Cannot find module 'C:\\xampp\\htdocs\\build-choi-\\resources\\assets\\js\\app.js'"); e.code = 'MODULE_NOT_FOUND'; throw e; }());
+__webpack_require__(/*! C:\xampp\htdocs\build-choi-\resources\js\app.js */"./resources/js/app.js");
 module.exports = __webpack_require__(/*! C:\xampp\htdocs\build-choi-\resources\sass\index.sass */"./resources/sass/index.sass");
 
 

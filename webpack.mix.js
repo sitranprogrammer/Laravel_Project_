@@ -10,18 +10,20 @@ const mix = require('laravel-mix');
  | file for the application as well as bundling up all the JS files.
  |
 */
+mix.js('resources/js/app.js', './js/app.js');
+//  add file js 
 mix.sass('resources/sass/index.sass', './css/main.css')
     // đổi đường đẫn index.sass thành scss  là dc 
     .minify('public/css/style.css')
     .options({
         processCssUrls: false
     });
-    mix.copy('resources/img', 'public/img');
+mix.copy('resources/img', 'public/img');
 mix.browserSync({
-        proxy: 'http://127.0.0.1:8000/',
+    proxy: 'http://127.0.0.1:8000/',
 
 
-    });
+});
 
 
 
