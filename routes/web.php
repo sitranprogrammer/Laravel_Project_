@@ -12,5 +12,5 @@
 */
 // Route::get('/','loai@showloai');
 Route::get('/', function () {
-    return view('duma');
+    return view('index');
 });
