@@ -11,10 +11,12 @@
         "start": "  php artisan ser & npm run watch"
     },
     "devDependencies": {
+        "@fortawesome/free-solid-svg-icons": "^5.12.0",
         "axios": "^0.19",
         "browser-sync": "^2.26.7",
         "browser-sync-webpack-plugin": "^2.0.1",
         "cross-env": "^5.2.1",
+        "jquery-ui": "^1.12.1",
         "laravel-mix": "^5.0.0",
         "lodash": "^4.17.13",
         "resolve-url-loader": "^2.3.1",
@@ -23,7 +25,9 @@
         "vue-template-compiler": "^2.6.10"
     },
     "dependencies": {
+        "@fortawesome/fontawesome-free": "^5.12.0",
         "jquery": "^3.4.1",
-        "node-sass": "^4.13.0"
+        "node-sass": "^4.13.0",
+        "save-dev": "0.0.1-security"
     }
 }

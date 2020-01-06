@@ -14,7 +14,6 @@ mix.js('resources/js/app.js', './js/app.js');
 //  add file js 
 mix.sass('resources/sass/index.sass', './css/main.css')
     // đổi đường đẫn index.sass thành scss  là dc 
-    .minify('public/css/style.css')
     .options({
         processCssUrls: false
     });

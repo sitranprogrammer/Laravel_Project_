@@ -1,5 +1,9 @@
-// require('./bootstrap');
-// include('/vendor/components/jquery/jquery.slim.min');
+require('./bootstrap');
+
+import $ from 'jquery';
+window.$ = window.jQuery = $;
+
+import 'jquery-ui/ui/widgets/datepicker.js';
 
 
 $(document).ready(function () {
