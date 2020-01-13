@@ -16,4 +16,3 @@ laravel build project (PUG SASS),
 3. các tính năng
 4. windown tìm file .env xoá dòng UNIX_SOCKET và vô folder config có mục database tìm mysql xoá dòng unix đi unix_socket dòng 58 trong file 
 5. nhớ xem lại file .env mà config lại theo yêu cầu của bạn :) 
-sfdgsdf
