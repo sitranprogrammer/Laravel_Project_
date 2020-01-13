@@ -28,6 +28,7 @@
         "@fortawesome/fontawesome-free": "^5.12.0",
         "jquery": "^3.4.1",
         "node-sass": "^4.13.0",
-        "save-dev": "0.0.1-security"
+        "save-dev": "0.0.1-security",
+        "slick-carousel": "^1.8.1"
     }
 }
