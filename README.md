@@ -7,7 +7,7 @@
 \____/\____/_/ /_/ /_/ .___/\____/____/\___/_/
 
 laravel build project (PUG SASS),
-1.  cài đặt composer phiên bản mới nhất
+1.  cài đặt composer phiên bản mới nhất && nodejs phiển bản 12.14.1
  https://getcomposer.org/
  + windown tải file .exe v
  + macos && linux getcomposer theo .Command-line installation 
