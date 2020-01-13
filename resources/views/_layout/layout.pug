@@ -3,19 +3,20 @@ html(lang="en")
 	head
 		 
 		include include/css
-		script(src="./public/js/app.css")	
+		
 	body
 		<!-- ////////////// Header ////////////// -->
-		include header
-		<!-- ////////////// End Header ////////////// -->
-		<!-- ////////////// Begin Main ////////////// -->
-		main
-			block body
-		<!-- ////////////// End Main ////////////// -->
-		<!-- ////////////// Footer ////////////// -->
-		include footer
-		<!-- ////////////// End Footer ////////////// -->
-		<!-- ////////////// Javascript Include ////////////// -->
-
-		block js
+		.full-page
+			include header
+			<!-- ////////////// End Header ////////////// -->
+			<!-- ////////////// Begin Main ////////////// -->
+			main
+				block body
+			<!-- ////////////// End Main ////////////// -->
+			<!-- ////////////// Footer ////////////// -->
+			include footer
+			<!-- ////////////// End Footer ////////////// -->
+			<!-- ////////////// Javascript Include ////////////// -->
+			include include/js
+	block js
 

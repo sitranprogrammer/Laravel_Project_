@@ -32067,8 +32067,8 @@ __webpack_require__(/*! ./bootstrap */ "./resources/js/bootstrap.js");
 window.$ = window.jQuery = jquery__WEBPACK_IMPORTED_MODULE_0___default.a;
 
 jquery__WEBPACK_IMPORTED_MODULE_0___default()(document).ready(function () {
-  jquery__WEBPACK_IMPORTED_MODULE_0___default()('#sideptrai').on('click', function () {
-    console.log('hihi');
+  jquery__WEBPACK_IMPORTED_MODULE_0___default()('#popup').on('click', function () {
+    jquery__WEBPACK_IMPORTED_MODULE_0___default()('ul li').toggle("slow", "linear");
   });
 });
 

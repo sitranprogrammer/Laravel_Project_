@@ -1,5 +1,49 @@
 
-@import 'vendor/twbs/bootstrap/scss/bootstrap.scss';
+@import 'vendor/twbs/bootstrap/scss/bootstrap.scss'
 @import '~jquery-ui/themes/base/all.css';
+@import '_include/font.sass'
 
-@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css');
+// h1
+//     font-size: 100px
+//     font-family: "Roboto"
+//     color: rgb(32, 33, 35)
+//     font-weight: bold
+//     line-height: 0.333
+//     text-align: left
+.full-page
+    overflow: hidden
+    max-width: 1600px
+    margin: 0 auto
+    background: 
+    background-size: cover
+    header
+        height: 160px
+        position: relative
+        z-index: 999
+        .header-main
+            width: 100%
+            display: flex 
+  
+        .section-logo
+            width: 30% 
+
+        .setion-menu
+            width: 70%
+           
+            ul
+                list-style-type: none
+                display: flex
+                flex-direction: column
+                width: 130px
+                text-align: center
+                li
+                    cursor: pointer
+                    margin: .3rem
+                    a
+                        color: #fff
+                    a:hover
+                        text-decoration: none
+                        
+
+        
+  

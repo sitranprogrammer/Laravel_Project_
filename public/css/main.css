@@ -1,4 +1,4 @@
-@import url(https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css);/*!
+@import url(https://fonts.googleapis.com/css?family=Poppins|Roboto|Ubuntu&display=swap);@import url(https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css);/*!
  * jQuery UI CSS Framework 1.12.1
  * http://jqueryui.com
  *
@@ -9187,3 +9187,37 @@ a.text-dark:hover, a.text-dark:focus {
   .table .thead-dark th {
     color: inherit;
     border-color: #dee2e6; } }
+
+.full-page {
+  overflow: hidden;
+  max-width: 1600px;
+  margin: 0 auto;
+  background-size: cover; }
+  .full-page header {
+    height: 160px;
+    position: relative;
+    z-index: 999; }
+    .full-page header .header-main {
+      width: 100%;
+      display: -webkit-box;
+      display: flex; }
+    .full-page header .section-logo {
+      width: 30%; }
+    .full-page header .setion-menu {
+      width: 70%; }
+      .full-page header .setion-menu ul {
+        list-style-type: none;
+        display: -webkit-box;
+        display: flex;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+                flex-direction: column;
+        width: 130px;
+        text-align: center; }
+        .full-page header .setion-menu ul li {
+          cursor: pointer;
+          margin: .3rem; }
+          .full-page header .setion-menu ul li a {
+            color: #fff; }
+          .full-page header .setion-menu ul li a:hover {
+            text-decoration: none; }
