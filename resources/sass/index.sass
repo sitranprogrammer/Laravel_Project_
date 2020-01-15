@@ -1,50 +1,70 @@
-@import 'vendor/twbs/bootstrap/scss/bootstrap.scss'
-@import '~jquery-ui/themes/base/all.css';
-@import '~slick-carousel/slick/slick-theme.scss'
-@import '~slick-carousel/slick/slick.scss'
-@import '_include/font.sass'
-@import '_include/mixin.sass'
-// h1
-//     font-size: 100px
-//     font-family: "Roboto"
-//     color: rgb(32, 33, 35)
-//     font-weight: bold
-//     line-height: 0.333
-//     text-align: left
+@import '_include/include.sass'
+body
+    div
+        margin: 0
+        padding: 0
+        border: 0
+        font-size: 100%
+        font-weight: normal
+        vertical-align: baseline
+        background: transparent
+
 .full-page
     overflow: hidden
     max-width: 1600px
     margin: 0 auto
-    background: 
+  
     background-size: cover
     header
         height: 160px
         position: relative
+        margin-top: 20px
         z-index: 999
         .header-main
             width: 100%
-            display: flex 
-  
+            display: flex
+
         .section-logo
-            width: 30% 
+            width: 30%
 
         .setion-menu
+            display: flex
+            justify-content: flex-end
             width: 70%
-           
-            ul
-                list-style-type: none
+            .tog-icoin
+                position: relative
+                background: #000000
+                width: 35px
+                height: 35px
                 display: flex
-                flex-direction: column
-                width: 130px
-                text-align: center
-                li
-                    cursor: pointer
-                    margin: .3rem
-                    a
-                        color: #fff
-                    a:hover
-                        text-decoration: none
-                        
-
-        
-  
+                justify-content: center
+                align-items: center
+                border-radius: 50%
+                cursor: pointer
+                transition: all .5s
+                &:hover
+                    box-shadow: 0px 0px 10px 2px #00000087
+                .fa-bars
+                    color: #ffffff
+            .menu-content
+                position: absolute
+                text-align: right
+                top: 90px
+                right: 70px
+                ul
+                    list-style-type: none
+                    font-weight: 500
+                    color: #222
+                    font-family: "roboto"
+                    font-weight: bold
+                    line-height: 2
+                    font-size: 0.6875rem
+                    letter-spacing: 1px
+                    li
+                        height: 50px
+                        a
+                            transition: all .5s
+                            color: #000
+                            &:hover
+                                color: #
+                                text-decoration: none
