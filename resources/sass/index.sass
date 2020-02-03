@@ -8,16 +8,22 @@ body
         font-weight: normal
         vertical-align: baseline
         background: transparent
-
+    .home-slider
+        .owl-carousel
+            .item
+                display: flex
+                justify-content: center
+                
 .full-page
     overflow: hidden
     max-width: 1600px
     margin: 0 auto
-  
+    height: auto
     background-size: cover
+    background: linear-gradient(80deg, rgba(233,233,233,1) 50%, rgba(130,244,211,1) 50%);
     header
-        height: 160px
-        position: relative
+       
+        position: relative  
         margin-top: 20px
         z-index: 999
         .header-main
@@ -58,7 +64,7 @@ body
                     font-family: "roboto"
                     font-weight: bold
                     line-height: 2
-                    font-size: 0.6875rem
+                    font-size: 14px
                     letter-spacing: 1px
                     li
                         height: 50px
@@ -66,5 +72,6 @@ body
                             transition: all .5s
                             color: #000
                             &:hover
-                                color: #
+                                padding: 0 10px 0 0    
                                 text-decoration: none
+                               

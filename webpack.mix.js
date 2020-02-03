@@ -10,7 +10,10 @@ const mix = require('laravel-mix');
  | file for the application as well as bundling up all the JS files.
  |
 */
-mix.js('resources/js/app.js', './js/app.js');
+mix.js('resources/js/app.js', './js/app.js')
+    .autoload({
+    jquery: ['$', 'window.jQuery', 'jQuery']
+    });
 //  add file js 
 mix.sass('resources/sass/index.sass', './css/main.css')
     // đổi đường đẫn index.sass thành scss  là dc 
