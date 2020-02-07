@@ -33995,6 +33995,8 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var owl_carousel__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(owl_carousel__WEBPACK_IMPORTED_MODULE_1__);
 /* harmony import */ var owl_carousel_dist_assets_owl_carousel_css__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! owl.carousel/dist/assets/owl.carousel.css */ "./node_modules/owl.carousel/dist/assets/owl.carousel.css");
 /* harmony import */ var owl_carousel_dist_assets_owl_carousel_css__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(owl_carousel_dist_assets_owl_carousel_css__WEBPACK_IMPORTED_MODULE_2__);
+function _defineProperty(obj, key, value) { if (key in obj) { Object.defineProperty(obj, key, { value: value, enumerable: true, configurable: true, writable: true }); } else { obj[key] = value; } return obj; }
+
 __webpack_require__(/*! ./bootstrap */ "./resources/js/bootstrap.js");
 
 
@@ -34002,13 +34004,20 @@ __webpack_require__(/*! ./bootstrap */ "./resources/js/bootstrap.js");
 
 window.$ = __webpack_provided_window_dot_jQuery = jquery__WEBPACK_IMPORTED_MODULE_0___default.a;
 jquery__WEBPACK_IMPORTED_MODULE_0___default()(document).ready(function () {
+  var _$$owlCarousel;
+
   jquery__WEBPACK_IMPORTED_MODULE_0___default()('ul>li').toggle();
   jquery__WEBPACK_IMPORTED_MODULE_0___default()('.tog-icoin').on('click', function () {
     jquery__WEBPACK_IMPORTED_MODULE_0___default()('ul>li').toggle('fast');
   });
-  jquery__WEBPACK_IMPORTED_MODULE_0___default()('.owl-carousel').owlCarousel({
-    items: 1
-  });
+  jquery__WEBPACK_IMPORTED_MODULE_0___default()('.owl-carousel').owlCarousel((_$$owlCarousel = {
+    items: 1,
+    autoplayTimeout: 5000,
+    touchDrag: false,
+    mouseDrag: false,
+    autoplay: true,
+    loop: true
+  }, _defineProperty(_$$owlCarousel, "autoplay", true), _defineProperty(_$$owlCarousel, "center", true), _$$owlCarousel));
 });
 /* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! jquery */ "./node_modules/jquery/dist/jquery.js")))
 

@@ -11,5 +11,14 @@ $(document).ready(function () {
     });
     $('.owl-carousel').owlCarousel({
         items:1,
+        autoplayTimeout: 5000,
+        touchDrag: false,
+        mouseDrag:false,
+        autoplay:true,
+        loop: true,
+        autoplay: true,
+        center:true,
+
+        // touchDrag:"false"
     });
 });
