@@ -34007,8 +34007,8 @@ jquery__WEBPACK_IMPORTED_MODULE_0___default()(document).ready(function () {
   var _$$owlCarousel;
 
   jquery__WEBPACK_IMPORTED_MODULE_0___default()('ul>li').toggle();
-  jquery__WEBPACK_IMPORTED_MODULE_0___default()('.tog-icoin').on('click', function () {
-    jquery__WEBPACK_IMPORTED_MODULE_0___default()('ul>li').toggle('fast');
+  jquery__WEBPACK_IMPORTED_MODULE_0___default()('.tog-icoin ').on('click', function () {
+    jquery__WEBPACK_IMPORTED_MODULE_0___default()('ul>li').toggle();
   });
   jquery__WEBPACK_IMPORTED_MODULE_0___default()('.owl-carousel').owlCarousel((_$$owlCarousel = {
     items: 1,
