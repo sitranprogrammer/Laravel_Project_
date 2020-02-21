@@ -1,0 +1,372 @@
+extends _layout/layout
+
+//- //- Các giá trị mặc định cho trang web
+//- block variables
+//- 	- var title = 'Home'
+
+
+
+//- Phần khai báo body
+block body
+	//- Bạn viết code vào đây nhớ là phải mở đầu bằng section ở mỗi khối
+	.navigation-shop
+		.container
+			.row
+				.col-md-4
+					.navigation_menu
+						i.fa.fa-list
+						p.m-0 Categories
+				.col-md-8
+					.Navigation_Bar
+						ul
+							li
+								a(href="#") Clothing
+							li
+								a(href="#") Electronics hot
+							li
+								a(href="#") Health & Beauty
+							li
+								a(href="#") Watches
+							li
+								a(href="#") Jewellery
+						
+	.model-slider
+		.container
+			.row
+				.col-md-4
+					.drop-menu
+						ul
+							li
+								a(href="#")
+									.social-link
+										i.fa.fa-play-circle-o
+										p CategoriesClothing
+							li
+								a(href="#")
+									.social-link
+										i.fa.fa-play-circle-o
+										p Electronics
+							li
+								a(href="#")
+									.social-link
+										i.fa.fa-play-circle-o
+										p Shoes
+							li
+								a(href="#")
+									.social-link
+										i.fa.fa-play-circle-o
+										p Jewellery
+									
+							li
+								a(href="#")
+									.social-link
+										i.fa.fa-play-circle-o
+										p Health and Beauty
+										
+							li
+								a(href="#")
+									.social-link
+										i.fa.fa-play-circle-o
+										p Kids and Babies		
+							li
+								a(href="#")
+									.social-link
+										i.fa.fa-play-circle-o
+										p Sports
+									
+							li.border-0
+								a(href="#")
+									.social-link
+										i.fa.fa-play-circle-o
+										p Home and Garden 			
+					.hot-deals.mt-5.pt-4
+						.hot-deals-title.mt-3
+							h3.mb-3 Hot Deals
+						.owl-carousel.owl-theme
+							.items.p-4.mb-4
+								img.img-fluid(src="img/home_deal_1.png", alt="", srcset="")	
+					.hot-deals.mt-5.pt-4
+						.hot-deals-title.mt-3
+							h3.mb-3 Special Deal
+						.owl-carousel.owl-theme
+							.items.p-4.mb-4
+								img.img-fluid(src="img/home_deal_1.png", alt="", srcset="")	
+					.newsletter
+						.row
+							
+				.col-md-8
+					.row.slider_show
+						
+						.owl-carousel
+							.items
+								img.img-fluid(src="img/home_slider_1.png", alt="", srcset="")
+								.title
+									h1 COLLECTION 2016
+									h2 save 50% for
+									h3 FIRST PURCHASE 
+							.items
+								img.img-fluid(src="img/home_slider_1.png", alt="", srcset="")
+								.title
+									h1 COLLECTION 2016
+									h2 save 50% for
+									h3 FIRST PURCHASE 
+							.items
+								img.img-fluid(src="img/home_slider_1.png", alt="", srcset="")
+								.title
+									h1 COLLECTION 2016
+									h2 save 50% for
+									h3 FIRST PURCHASE 
+							.items
+								img.img-fluid(src="img/home_slider_1.png", alt="", srcset="")
+								.title
+									h1 COLLECTION 2016
+									h2 save 50% for
+									h3 FIRST PURCHASE 	
+						.Feature_Bar
+							.row
+								.col-md-4
+									.title
+										p money back
+										p 30 Days Money Back Guarantee
+
+								.col-md-4
+									.title
+										p money back
+										p 30 Days Money Back Guarantee
+
+								.col-md-4
+									.title
+										p money back
+										p 30 Days Money Back Guarantee
+					.row
+						.new-product.mt-5
+							.row.owl-theme
+								.col-md-4.d-flex.align-items-center.justify-content-center
+									h3 new product
+								
+								.col-md-8
+									ul
+										li
+											a(href="#") product
+										li
+											a(href="#") product
+										li
+											a(href="#") product
+										li
+											a(href="#") product
+										
+							.owl-carousel.owl-theme
+								.items
+									img.img_fluid(src="img/product_1.png", alt="", srcset="")
+									.desc
+										p Lorem ipsum dolor 
+										.price
+											del.fix-price $200.00
+											p $90.00
+										
+										
+
+								.items
+									img.img_fluid(src="img/product_1.png", alt="", srcset="")
+									.desc
+										p Lorem ipsum dolor 
+										.price
+											del.fix-price $200.00
+											p $90.00
+										
+											
+
+								.items
+									img.img_fluid(src="img/product_1.png", alt="", srcset="")
+									.desc
+										p Lorem ipsum dolor 
+										.price
+											del.fix-price $200.00
+											p $90.00
+								
+
+								.items
+									img.img_fluid(src="img/product_1.png", alt="", srcset="")
+									.desc
+										p Lorem ipsum dolor 
+										.price
+											del.fix-price $200.00
+											p $90.00
+									
+							
+								.items
+									img.img_fluid(src="img/product_1.png", alt="", srcset="")
+									.desc
+										p Lorem ipsum dolor 
+										.price
+											del $200.00
+											p $90.00
+					
+					.Row.brand-product.mt-5
+						.col-md-6.pl-0
+							figure
+								img.img-fluid(src="img/baner_3.png", alt="", srcset="")
+								figcaption
+									h4 2016
+									span Fashion Sale
+									a(href="http://") Buy now
+									sub *On select items onlys
+
+						.col-md-6.pr-0
+							figure
+								img.img-fluid(src="img/baner_4.png", alt="", srcset="")
+								figcaption
+									h4 2016
+									span Fashion Sale
+									a(href="http://") Buy now
+									sub *On select items onlys
+
+					.row
+						.new-product.mt-5
+							.row.owl-theme
+								.col-md-4.d-flex.align-items-center.justify-content-center
+									h3 Last Product
+								.col-md-8
+									ul
+										li
+											a(href="#") product
+										li
+											a(href="#") product
+										li
+											a(href="#") product
+										li
+											a(href="#") product
+										
+							.owl-carousel.owl-theme
+								.items
+									img.img_fluid(src="img/product_1.png", alt="", srcset="")
+									.desc
+										p Lorem ipsum dolor 
+										.price
+											del.fix-price $200.00
+											p $90.00
+										
+										
+
+								.items
+									img.img_fluid(src="img/product_1.png", alt="", srcset="")
+									.desc
+										p Lorem ipsum dolor 
+										.price
+											del.fix-price $200.00
+											p $90.00
+										
+											
+
+								.items
+									img.img_fluid(src="img/product_1.png", alt="", srcset="")
+									.desc
+										p Lorem ipsum dolor 
+										.price
+											del.fix-price $200.00
+											p $90.00
+								
+
+								.items
+									img.img_fluid(src="img/product_1.png", alt="", srcset="")
+									.desc
+										p Lorem ipsum dolor 
+										.price
+											del.fix-price $200.00
+											p $90.00
+									
+							
+								.items
+									img.img_fluid(src="img/product_1.png", alt="", srcset="")
+									.desc
+										p Lorem ipsum dolor 
+										.price
+											del $200.00
+											p $90.00
+			
+					.row.home-baner-1.mt-5
+						.col-md-12
+							figure
+								img.img-fluid(src="img/home_baner_2.png", alt="", srcset="")
+								figcaption
+
+									span Beautiful Laptop
+									p Retina Display 18” Ready !
+									a(href="http://") Shop Now
+						
+					.row.feture_product.mt-5
+						.title
+						.product
+							.row
+								.col-md-3
+									figure
+										img.img-fluid(src="img/feature_product_5.png", alt="", srcset="")
+										figcaption
+											p.name-product Lorem ipsum dolor
+											.product-price
+												del.fix-price $100.00
+												p.price $90.00
+											#star 
+								.col-md-3
+									figure
+										img.img-fluid(src="img/feature_product_5.png", alt="", srcset="")
+										figcaption
+											p.name-product Lorem ipsum dolor
+											.product-price
+												del.fix-price $100.00
+												p.price $90.00
+											#star 
+								.col-md-3
+									figure
+										img.img-fluid(src="img/feature_product_5.png", alt="", srcset="")
+										figcaption
+											p.name-product Lorem ipsum dolor
+											.product-price
+												del.fix-price $100.00
+												p.price $90.00
+											#star 
+								.col-md-3
+									figure
+										img.img-fluid(src="img/feature_product_5.png", alt="", srcset="")
+										figcaption
+											p.name-product Lorem ipsum dolor
+											.product-price
+												del.fix-price $100.00
+												p.price $90.00
+											#star 
+								.col-md-3
+									figure
+										img.img-fluid(src="img/feature_product_5.png", alt="", srcset="")
+										figcaption
+											p.name-product Lorem ipsum dolor
+											.product-price
+												del.fix-price $100.00
+												p.price $90.00
+											#star 
+								.col-md-3
+									figure
+										img.img-fluid(src="img/feature_product_5.png", alt="", srcset="")
+										figcaption
+											p.name-product Lorem ipsum dolor
+											.product-price
+												del.fix-price $100.00
+												p.price $90.00
+											#star 
+								.col-md-3
+									figure
+										img.img-fluid(src="img/feature_product_5.png", alt="", srcset="")
+										figcaption
+											p.name-product Lorem ipsum dolor
+											.product-price
+												del.fix-price $100.00
+												p.price $90.00
+											#star 
+								.col-md-3
+									figure
+										img.img-fluid(src="img/feature_product_5.png", alt="", srcset="")
+										figcaption
+											p.name-product Lorem ipsum dolor
+											.product-price
+												del.fix-price $100.00
+												p.price $90.00
+											#star 

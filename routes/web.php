@@ -10,9 +10,16 @@
 | contains the "web" middleware group. Now create something great!
 |
 */
-// Route::get('/','loai@showloai');
+
+// Route::get('hihi/{users}','loai@first');
+Route::get('hihi','loai@showloai');
 Route::get('/', function () {
     return view('index');
 });
 
-// Route::get('/','loai@showloai');
+
+// Route::get('user/{id}', function($id) {
+//    echo "ID của user là : " . $id;
+   
+//     return view('index',['id'=>$id]);
+// });
