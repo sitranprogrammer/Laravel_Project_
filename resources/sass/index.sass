@@ -147,6 +147,7 @@ body
                 @include layout_box_size($color:#000,$height: auto ,$bg: #fff)
                 flex-direction: column
                 .hot-deals-title
+                
                     border-bottom: .5px solid #eaeaea
                     width: 86%
                     display: flex
@@ -156,7 +157,46 @@ body
                         text-transform: uppercase
                         font-size: 20px
                         margin-bottom: 0px
+            .newsletter
+                @include loadlayout($value1:center ,$value2: center )
+                @include layout_box_size($color:#000,$height: auto ,$bg: #fff)
+                flex-direction: column
+                .newsletter-title
+                    border-bottom: .5px solid #eaeaea
+                    width: 86%
+                    display: flex
+                    justify-content: flex-start
+                    h3
+                        font-weight: bolder
+                        text-transform: uppercase
+                        font-size: 20px
+                        margin-bottom: 0px
+                .newletter-input
+                    width: 85%
+                    margin: 20px
+                    .input
+                        // @include loadlayout($value1:center ,$value2:center )
+                    .input-text
+                        background: #f3f3f3
+                        width: 100%
+                        border: 0
+                        padding: 10px 0
+                        border-radius: 5px
+                        &:focus
+                            border: 0
+                    .input-btn
+                        font-size: 16px
+                        padding: 8px 15px
+                        height: auto
+                        width: auto
+                        width: 120px
+                        background: #f10e34
+                        color: #fff
+                        border-radius: 20px
+                        border: 0
+                        margin-top: 30px
 
+                            
             .title
                 text-transform: uppercase
                 display: flex

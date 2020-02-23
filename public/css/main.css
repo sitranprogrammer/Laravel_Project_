@@ -9418,7 +9418,6 @@ body {
     height: auto;
     color: #000;
     overflow: hidden;
-    padding: 20px 0 0 0;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
             flex-direction: column; }
@@ -9434,6 +9433,55 @@ body {
         text-transform: uppercase;
         font-size: 20px;
         margin-bottom: 0px; }
+  body main .model-slider .newsletter {
+    padding: 0;
+    display: -webkit-box;
+    display: flex;
+    -webkit-box-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+            align-items: center;
+    background: #fff;
+    height: auto;
+    color: #000;
+    overflow: hidden;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+            flex-direction: column; }
+    body main .model-slider .newsletter .newsletter-title {
+      border-bottom: .5px solid #eaeaea;
+      width: 86%;
+      display: -webkit-box;
+      display: flex;
+      -webkit-box-pack: start;
+              justify-content: flex-start; }
+      body main .model-slider .newsletter .newsletter-title h3 {
+        font-weight: bolder;
+        text-transform: uppercase;
+        font-size: 20px;
+        margin-bottom: 0px; }
+    body main .model-slider .newsletter .newletter-input {
+      width: 85%;
+      margin: 20px; }
+      body main .model-slider .newsletter .newletter-input .input-text {
+        background: #f3f3f3;
+        width: 100%;
+        border: 0;
+        padding: 10px 0;
+        border-radius: 5px; }
+        body main .model-slider .newsletter .newletter-input .input-text:focus {
+          border: 0; }
+      body main .model-slider .newsletter .newletter-input .input-btn {
+        font-size: 16px;
+        padding: 8px 15px;
+        height: auto;
+        width: auto;
+        width: 120px;
+        background: #f10e34;
+        color: #fff;
+        border-radius: 20px;
+        border: 0;
+        margin-top: 30px; }
   body main .model-slider .title {
     text-transform: uppercase;
     display: -webkit-box;
@@ -9512,7 +9560,6 @@ body {
     height: auto;
     color: #000;
     overflow: hidden;
-    padding: 20px 0 0 0;
     overflow: hidden; }
     body main .model-slider .new-product .row .col-md-4 h3 {
       text-transform: uppercase;
@@ -9597,7 +9644,6 @@ body {
     height: auto;
     color: #000;
     overflow: hidden;
-    padding: 20px 0 0 0;
     padding: 0;
     display: -webkit-box;
     display: flex;
@@ -9640,8 +9686,7 @@ body {
     background: #fff;
     height: auto;
     color: #000;
-    overflow: hidden;
-    padding: 20px 0 0 0; }
+    overflow: hidden; }
     body main .model-slider .feture_product .product .row {
       padding: 0 15px; }
       body main .model-slider .feture_product .product .row .col-md-3 {
