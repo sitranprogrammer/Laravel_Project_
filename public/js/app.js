@@ -36209,7 +36209,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var jquery_ui_ui_widgets_datepicker_js__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(jquery_ui_ui_widgets_datepicker_js__WEBPACK_IMPORTED_MODULE_2__);
 /* harmony import */ var owl_carousel__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! owl.carousel */ "./node_modules/owl.carousel/dist/owl.carousel.js");
 /* harmony import */ var owl_carousel__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(owl_carousel__WEBPACK_IMPORTED_MODULE_3__);
-var _$$owlCarousel, _$$owlCarousel2;
+var _$$owlCarousel;
 
 function _defineProperty(obj, key, value) { if (key in obj) { Object.defineProperty(obj, key, { value: value, enumerable: true, configurable: true, writable: true }); } else { obj[key] = value; } return obj; }
 
@@ -36226,24 +36226,37 @@ jquery__WEBPACK_IMPORTED_MODULE_1___default()(document).ready(function () {
   // });
   jquery__WEBPACK_IMPORTED_MODULE_1___default()('.owl-carousel').owlCarousel({
     items: 1,
-    // nav: false,
     dots: false,
-    loop: true,
-    nav: false
+    loop: true // nav: true,
+
   });
 });
-jquery__WEBPACK_IMPORTED_MODULE_1___default()('.new-product > .owl-carousel').owlCarousel((_$$owlCarousel = {
+jquery__WEBPACK_IMPORTED_MODULE_1___default()('.new-product > .owl-carousel').owlCarousel({
   items: 4,
   nav: false,
   dots: false,
-  loop: true
-}, _defineProperty(_$$owlCarousel, "nav", false), _defineProperty(_$$owlCarousel, "autoplay", true), _$$owlCarousel));
-jquery__WEBPACK_IMPORTED_MODULE_1___default()('.hot-deals> .owl-carousel').owlCarousel((_$$owlCarousel2 = {
+  loop: true,
+  responsive: {
+    // breakpoint from 0 up
+    0: {},
+    // breakpoint from 480 up
+    480: {
+      items: 4,
+      mouseDrag: false,
+      touchDrag: false
+    },
+    // breakpoint from 768 up
+    768: {}
+  } // autoplay: none,
+  // onDrag:none
+
+});
+jquery__WEBPACK_IMPORTED_MODULE_1___default()('.hot-deals> .owl-carousel').owlCarousel((_$$owlCarousel = {
   items: 1,
   nav: true,
   dots: false,
   loop: true
-}, _defineProperty(_$$owlCarousel2, "nav", false), _defineProperty(_$$owlCarousel2, "autoplay", true), _$$owlCarousel2));
+}, _defineProperty(_$$owlCarousel, "nav", false), _defineProperty(_$$owlCarousel, "autoplay", true), _$$owlCarousel));
 /* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! jquery */ "./node_modules/jquery/dist/jquery.js")))
 
 /***/ }),
