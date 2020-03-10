@@ -12,10 +12,10 @@
 */
 
 // Route::get('hihi/{users}','loai@first');
-Route::get('hihi','loai@showloai');
-Route::get('/', function () {
-    return view('index');
-});
+Route::get('hihi','product@ShowProduct');
+// Route::get('/', function () {
+//     return view('index');
+// });
 
 
 // Route::get('user/{id}', function($id) {

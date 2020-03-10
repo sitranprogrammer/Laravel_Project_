@@ -97,14 +97,14 @@ block body
 						.newletter-input
 							p Lorem ipsum dolor sit 
 							.input
-								input.input-text(type="text", name="")
+								input.input-text(name="", type="text")
 								input.input-btn(type="button", value="submit")
 					.new-brand
 						img.img-fluid(src="img/home_baner.png", alt="", srcset="")
 				.col-md-8
 					.row.slider_show
 						
-						.owl-carousel
+						.owl-carousel.owl-theme
 							.items
 								img.img-fluid(src="./img/home_slider_1.png", alt="", srcset="")
 								.title
@@ -146,7 +146,7 @@ block body
 										p money back
 										p 30 Days Money Back Guarantee
 					.row
-						.new-product.mt-3
+						.new-product.mt-3.pb-3
 							.row.owl-theme
 								.col-md-4.d-flex.align-items-center.justify-content-md-center
 									h3 new product
@@ -227,12 +227,12 @@ block body
 									span Fashion Sale
 									a(href="http://") Buy now
 									sub *On select items onlys
-
-					
-						.new-product.mt-3
+					.row
+						.new-product.mt-3.pb-3
 							.row.owl-theme
-								.col-md-4.d-flex.align-items-center.justify-content-center
-									h3 Last Product
+								.col-md-4.d-flex.align-items-center.justify-content-md-center
+									h3 new product
+									
 								.col-md-8
 									ul
 										li
@@ -290,8 +290,7 @@ block body
 										.price
 											del $200.00
 											p $90.00
-			
-					.row.home-baner-1.mt-3
+					.row.home-baner-1.mt-5
 						.col-md-12
 							figure
 								img.img-fluid(src="img/home_baner_2.png", alt="", srcset="")
@@ -301,79 +300,83 @@ block body
 									p Retina Display 18” Ready !
 									a(href="http://") Shop Now
 						
-					.row.feture_product.mt-3
-						.title
+					.row.feature-product.mt-4
+						.feature-title.d-flex.align-items-center.justify-content-md-center.m-4
+							h3 feture product
 						.product
-							.row
-								.col-md-3
-									figure
-										img.img-fluid(src="img/feature_product_5.png", alt="", srcset="")
-										figcaption
-											p.name-product Lorem ipsum dolor
-											.product-price
-												del.fix-price $100.00
-												p.price $90.00
-											#star 
-								.col-md-3
-									figure
-										img.img-fluid(src="img/feature_product_5.png", alt="", srcset="")
-										figcaption
-											p.name-product Lorem ipsum dolor
-											.product-price
-												del.fix-price $100.00
-												p.price $90.00
-											#star 
-								.col-md-3
-									figure
-										img.img-fluid(src="img/feature_product_5.png", alt="", srcset="")
-										figcaption
-											p.name-product Lorem ipsum dolor
-											.product-price
-												del.fix-price $100.00
-												p.price $90.00
-											#star 
-								.col-md-3
-									figure
-										img.img-fluid(src="img/feature_product_5.png", alt="", srcset="")
-										figcaption
-											p.name-product Lorem ipsum dolor
-											.product-price
-												del.fix-price $100.00
-												p.price $90.00
-											#star 
-								.col-md-3
-									figure
-										img.img-fluid(src="img/feature_product_5.png", alt="", srcset="")
-										figcaption
-											p.name-product Lorem ipsum dolor
-											.product-price
-												del.fix-price $100.00
-												p.price $90.00
-											#star 
-								.col-md-3
-									figure
-										img.img-fluid(src="img/feature_product_5.png", alt="", srcset="")
-										figcaption
-											p.name-product Lorem ipsum dolor
-											.product-price
-												del.fix-price $100.00
-												p.price $90.00
-											#star 
-								.col-md-3
-									figure
-										img.img-fluid(src="img/feature_product_5.png", alt="", srcset="")
-										figcaption
-											p.name-product Lorem ipsum dolor
-											.product-price
-												del.fix-price $100.00
-												p.price $90.00
-											#star 
-								.col-md-3
-									figure
-										img.img-fluid(src="img/feature_product_5.png", alt="", srcset="")
-										figcaption
-											p.name-product Lorem ipsum dolor
-											.product-price
-												del.fix-price $100.00
-												p.price $90.00
-											#star 
+							.container
+								.row
+									.col-md-3.col-sm-3
+										figure
+											img.img-fluid(src="img/feature_product_5.png", alt="", srcset="")
+											figcaption
+												p.name-product Lorem ipsum dolor
+												.product-price
+													del.fix-price $100.00
+													p.price $90.00
+												#star 
+									.col-md-3.col-sm-3
+										figure
+											img.img-fluid(src="img/feature_product_5.png", alt="", srcset="")
+											figcaption
+												p.name-product Lorem ipsum dolor
+												.product-price
+													del.fix-price $100.00
+													p.price $90.00
+												#star 
+									.col-md-3.col-sm-3
+										figure
+											img.img-fluid(src="img/feature_product_5.png", alt="", srcset="")
+											figcaption
+												p.name-product Lorem ipsum dolor
+												.product-price
+													del.fix-price $100.00
+													p.price $90.00
+												#star 
+									.col-md-3.col-sm-3
+										figure
+											img.img-fluid(src="img/feature_product_5.png", alt="", srcset="")
+											figcaption
+												p.name-product Lorem ipsum dolor
+												.product-price
+													del.fix-price $100.00
+													p.price $90.00
+												#star 
+									.col-md-3.col-sm-3
+										figure
+											img.img-fluid(src="img/feature_product_5.png", alt="", srcset="")
+											figcaption
+												p.name-product Lorem ipsum dolor
+												.product-price
+													del.fix-price $100.00
+													p.price $90.00
+												#star 
+												
+									.col-md-3.col-sm-3
+										figure
+											img.img-fluid(src="img/feature_product_5.png", alt="", srcset="")
+											figcaption
+												p.name-product Lorem ipsum dolor
+												.product-price
+													del.fix-price $100.00
+													p.price $90.00
+												#star 
+									.col-md-3.col-sm-3
+										figure
+											img.img-fluid(src="img/feature_product_5.png", alt="", srcset="")
+											figcaption
+												p.name-product Lorem ipsum dolor
+												.product-price
+													del.fix-price $100.00
+													p.price $90.00
+												#star
+									.col-md-3.col-sm-3
+										figure
+											img.img-fluid(src="img/feature_product_5.png", alt="", srcset="")
+											figcaption
+												p.name-product Lorem ipsum dolor
+												.product-price
+													del.fix-price $100.00
+													p.price $90.00
+												#star 
+									

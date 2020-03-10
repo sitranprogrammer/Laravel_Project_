@@ -6,18 +6,23 @@ import 'jquery-ui/ui/widgets/datepicker.js';
 import 'owl.carousel';
 
 $(document).ready(function () {
-    // $('#sideptrai').on('click', function () {
-    //     console.log('hihi')
-    // });
+    $('#sideptrai').on('click', function () {
+        console.log('hihi')
+    });
     $('.owl-carousel').owlCarousel({
         items: 1,
-      
-        dots: false,
+        animateOut: 'zoomOut',
+        animateIn: 'zoomIn',
+        // dots: true,
         loop: true,
         // nav: true,
+        autoplay:true,
+        mouseDrag:false,
+        touchDrag:false,
+        smartSpeed:1500,
        
     });
-   
+  
   
 })
 $('.new-product > .owl-carousel').owlCarousel({
