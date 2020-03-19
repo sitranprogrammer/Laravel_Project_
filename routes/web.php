@@ -11,15 +11,11 @@
 |
 */
 
-// Route::get('hihi/{users}','loai@first');
-Route::get('hihi','product@ShowProduct');
-// Route::get('/', function () {
-//     return view('index');
-// });
+// Route::get('index','product@ShowProduct_ById');
+// Route::get('/index','product@ShowProduct');
 
 
-// Route::get('user/{id}', function($id) {
-//    echo "ID của user là : " . $id;
-   
-//     return view('index',['id'=>$id]);
-// });
+Route::get('/','product@ShowProduct');
+Route::get('/product','product@ShowProduct_ById');
+
+Route::get('/stone','product@stone');

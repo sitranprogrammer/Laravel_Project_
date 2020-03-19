@@ -1,14 +1,18 @@
 require('./bootstrap');
+
 import 'owl.carousel/dist/assets/owl.carousel.css';
 import $ from 'jquery';
 window.$ = window.jQuery = $;
 import 'jquery-ui/ui/widgets/datepicker.js';
 import 'owl.carousel';
+import 'slick-carousel'
+
+
+
+
 
 $(document).ready(function () {
-    $('#sideptrai').on('click', function () {
-        console.log('hihi')
-    });
+   
     $('.owl-carousel').owlCarousel({
         items: 1,
         animateOut: 'zoomOut',
@@ -60,3 +64,11 @@ $('.hot-deals> .owl-carousel').owlCarousel({
     nav: false,
     autoplay:true
 })
+$('#product-main-img').slick({
+    infinite: true,
+    speed: 300,
+    dots: false,
+    arrows: true,
+    fade: true,
+    asNavFor: '#product-imgs',
+  });

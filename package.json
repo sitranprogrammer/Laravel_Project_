@@ -30,6 +30,7 @@
         "jquery": "^3.4.1",
         "node-sass": "^4.13.0",
         "owl.carousel": "^2.3.4",
-        "save-dev": "0.0.1-security"
+        "save-dev": "0.0.1-security",
+        "slick-carousel": "^1.8.1"
     }
 }

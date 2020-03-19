@@ -15,7 +15,7 @@ mix.js('resources/js/app.js', './js/app.js')
     jquery: ['$', 'window.jQuery', 'jQuery']
     });
 //  add file js 
-mix.sass('resources/sass/index.sass', './css/main.css')
+mix.sass( 'resources/sass/index.sass', './css/main.css')
     // đổi đường đẫn index.sass thành scss  là dc 
     .options({
         processCssUrls: false
